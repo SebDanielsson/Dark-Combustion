@@ -1,3 +1,5 @@
+/* Version 1.1 */
+
 /*
 Theme colors:
 Dark #242430
@@ -4192,6 +4194,7 @@ Lighter Grey #D4D5DE
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    outline: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -4341,7 +4344,8 @@ Lighter Grey #D4D5DE
 .theme__tab___26SP9.theme__active___2LZ7Z {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    outline: none;
 }
 
 .theme__fixed___3bROj .theme__label___1yb8L {
@@ -4730,7 +4734,9 @@ Lighter Grey #D4D5DE
 }
 
 .index__aside___2ptp0 {
-    background-color: #fff;
+    background-color: #414564;
+    border-left: 1px solid #242430;
+    color: #FFFFFF;
     bottom: 0;
     left: 100%;
     overflow: auto;
@@ -5096,6 +5102,7 @@ Lighter Grey #D4D5DE
 }
 
 .index__inspector___2kWD5 {
+    font-size: 1.2em;
     text-align: left;
     padding: 15px
 }
@@ -5129,11 +5136,17 @@ Lighter Grey #D4D5DE
 
 .index__peerList___185No {
     width: 100%;
-    border-collapse: collapse
+    border-collapse: collapse;
+    background-color: #242430;
+}
+
+.index__peerRow___3RIW9 {
+    background-color: #363746;
+    padding: 5px;
 }
 
 .index__peerRow___3RIW9:nth-child(2n) {
-    background-color: #f8f8f2
+    background-color: #242430
 }
 
 .index__encryptedCol___a72s3 {
@@ -5183,8 +5196,13 @@ Lighter Grey #D4D5DE
     padding: 3px 0 3px 2px
 }
 
+.index__tierRow___vO1L5 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 .index__tierRow___vO1L5:nth-child(2n) {
-    background-color: #f8f8f2
+
 }
 
 .index__trackerInfo___1eFc5 {
@@ -5197,7 +5215,7 @@ Lighter Grey #D4D5DE
 }
 
 .index__trackerActivity___1PYG0 {
-    color: #666
+    color: #ffffff;
 }
 
 .index__trackerActivityRow___1bzIk {
@@ -5207,18 +5225,18 @@ Lighter Grey #D4D5DE
 
 .index__trackerHost___KwHq3 {
     font-size: 1.2em;
-    font-weight: 700;
-    color: #222
+    font-weight: 600;
+    color: #A9AABC;
 }
 
 .index__trackerTier___oPcK2 {
     margin: 0;
-    padding: 2px;
-    background-color: #fff
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
 .index__trackerStats___1HZLF {
-    color: #666;
+    color: #D4D5DE;
     width: 150px;
     margin: 0;
     padding-right: 3px
