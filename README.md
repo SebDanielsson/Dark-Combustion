@@ -11,6 +11,9 @@ Dark variant of the excellent [Secretmapper](https://github.com/Secretmapper)/[c
 ## To-Do
 Find a more elegant installation method where you don't need to replace the original CSS file.
 
+## Donate
+<a href="https://buymeacoffee.com/danielsson" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 ## Contribute
 All contributions are appreciated.
 
